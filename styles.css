@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.product {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#cart-count {
+  background-color: #FFA500;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 50%;
+}
+
+.cart-item {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.cart-item p {
+  margin: 5px 0;
+}
+
+.cart-item:last-child {
+  border-bottom: none;
+}
+
+/* Additional styles for the Clear Cart button */
+button#clear-cart {
+  display: block;
+  margin: 20px auto; /* Center the clear cart button */
+  background-color: #FFA500;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button#clear-cart:hover {
+  background-color: #FF7F50;
+}
+
+/* Align total price label to the center */
+#total-price {
+  text-align: center;
+  margin-top: 20px; /* Add margin for better spacing */
+font-weight: bold;
+}
+
+/* Add hover effect to buttons */
+button.add-to-cart {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+button.add-to-cart:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
