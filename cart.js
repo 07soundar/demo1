@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const itemElement = document.createElement('div');
     itemElement.classList.add('cart-item');
     itemElement.innerHTML = `
-      <img src="product_images/${item.name.toLowerCase().replace(/\s/g, '')}.jpg" alt="${item.name}">
+      <img src="product_images.jpg" alt="${item.name}">
       <div>
         <p>${item.name}</p>
         <p>Rs.${item.price}</p>
